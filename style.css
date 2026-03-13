@@ -1,0 +1,81 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f9;
+color:#333;
+}
+
+header{
+background:#4a6cf7;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 10px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ddd;
+}
+
+section{
+max-width:900px;
+margin:auto;
+padding:30px;
+}
+
+img{
+display:block;
+margin:auto;
+border-radius:50%;
+max-width:150px;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+max-width:400px;
+margin:auto;
+}
+
+input, textarea{
+margin:10px 0;
+padding:10px;
+}
+
+button{
+padding:10px;
+cursor:pointer;
+}
+
+/* темная тема */
+
+.dark{
+background:#1e1e1e;
+color:white;
+}
+
+.dark header{
+background:#111;
+}
+
+.dark footer{
+background:#111;
+}
