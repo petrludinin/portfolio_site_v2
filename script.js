@@ -1,5 +1,6 @@
 const btn = document.getElementById("themeBtn");
 
+
 // применяем тему при загрузке страницы
 if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark");
